@@ -1,0 +1,45 @@
+.text-14{font-size: 14!important;}
+.text-15{font-size: 15!important;}
+.text-16{font-size: 16!important;}
+.text-17{font-size: 17!important;}
+.text-18{font-size: 18!important;}
+.text-19{font-size: 19!important;}
+.social-icon{font-size:30 !important;}
+
+.icon-size{
+    height: 50px!important;
+    width: 100%;
+}
+
+a:active,a:hover{
+    color: #cd9933!important;
+    font-weight: 600!important;
+}
+.content{
+    max-width: 700px!important;
+    font-size: 14px!important;
+}
+
+.home-section-image {
+    background-image: url("../images/pngegg.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .btn-light-brwn{
+      padding: 35px 20px 35px 20px !important;
+      background-color: #fff;
+      color: #cd9933!important;
+      font-weight: 700;
+      border-radius: 50%;
+      box-shadow: rgba(255, 225, 182, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      
+  }
+
+.btn-center{
+    top: 97.5px!important;
+}
+  
