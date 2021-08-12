@@ -25,3 +25,21 @@ function includeHTML() {
     }
   }
 }
+
+
+/*$(document).ready(function() {
+    $('a[href$="' + location.pathname + '"]').addClass('active');
+});*/
+function highlightCurrentURL() {
+  var a = document.getElementById("navigation").getElementsByTagName("a");
+  for (var i = 0; i < a.length; i++) {
+    if (a[i].href.split("#")[0] == document.location.href.split("#")[0]) {
+      a[i].className = "activehighlight active";
+     
+    }
+  }
+}
+// 
+window.onload = function() {
+  highlightCurrentURL();
+}
