@@ -30,6 +30,10 @@ body{
     -10px 0 80px rgb(248, 234, 209),        /* outer left magenta */
     10px 0 80px #fff;         /* outer right cyan */
 }
+img{
+  width: 100%;
+  height: auto;
+}
 .title {
     overflow: hidden;
     height: auto;
