@@ -31,8 +31,9 @@ body{
     10px 0 80px #fff;         /* outer right cyan */
 }
 img{
-  width: 100%;
-  height: auto;
+  width: 100%!important;
+  height: auto!important;
+  object-fit: contain;
 }
 .title {
     overflow: hidden;
@@ -112,7 +113,7 @@ a:hover{
     font-weight: 600!important;
 }
 .home-section-image {
-    background-image: url("../images/pngegg.png");
+    background-image: url("../../images/pngegg.png");
     height: 100%;
     min-height: 300px;
     background-position: center;
@@ -155,6 +156,20 @@ a:hover{
     }
     .title{
         text-align: center;
+    }
+    .nav-img{
+      display: flex;
+      justify-content: left;
+      float: left;
+      width: 100%;
+      height: 50px;
+      align-items: left;
+      text-align: left;
+    }
+
+    p{
+      text-align: center;
+      justify-content: center;
     }
     
   }
